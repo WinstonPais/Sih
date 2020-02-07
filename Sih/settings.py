@@ -141,3 +141,12 @@ STATICFILES_DIRS = [
 # MEDIA
 MEDIA_ROOT= MEDIA_DIR
 MEDIA_URL = '/media/'
+
+
+#email
+EMAIL_HOST = 'smtp.live.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'winstonpais@live.in'
+EMAIL_HOST_PASSWORD = ''
+# EMAIL_USE_SSL = True
+EMAIL_USE_TLS = True

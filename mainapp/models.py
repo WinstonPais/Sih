@@ -12,7 +12,10 @@ class UserProfileInfo(models.Model):
     # # pip install pillow to use this!
     # # Optional: pip install pillow --global-option="build_ext" --global-option="--disable-jpeg"
     # profile_pic = models.ImageField(upload_to='basic_app/profile_pics',blank=True)
-
+    phno=models.BigIntegerField()
+    address=models.CharField(max_length=250)
+    gender=models.CharField(max_length=10)
+    dob=models.DateField()
 
     def __str__(self):
         # Built-in attribute of django.contrib.auth.models.User !
